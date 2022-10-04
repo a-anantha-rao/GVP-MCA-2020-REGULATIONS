@@ -1,0 +1,7 @@
+s="welcome to gvp CoLLEGE"
+print(s.capitalize())#to captialize the string
+print(s.casefold())#to casefold the length of a string
+print(len(s))#to find the length of a string
+print(s.lower())#to convert to lowercase
+print(s.upper())#to convert to uppercase
+print(s.split("o"))#to split the given string at given number

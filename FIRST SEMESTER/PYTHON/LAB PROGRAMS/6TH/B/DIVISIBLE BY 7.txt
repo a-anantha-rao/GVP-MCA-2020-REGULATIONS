@@ -1,0 +1,9 @@
+def divisible (num):
+if(num%7==0)and(num%5!=0):
+return num
+start=1000
+end=2000
+for i in range(start,end):
+res=divisible(i)
+if(res!=None):
+print(res) 

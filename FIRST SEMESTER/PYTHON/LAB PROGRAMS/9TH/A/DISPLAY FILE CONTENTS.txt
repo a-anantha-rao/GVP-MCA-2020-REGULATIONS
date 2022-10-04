@@ -1,0 +1,6 @@
+f=open("d:/python.txt","r+")
+print("displaying file contents using read method")
+print(f.read(16))
+print(f.readline())
+print(f.readlines())
+f.close()

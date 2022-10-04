@@ -1,0 +1,13 @@
+def call_by_value(s): 
+s="python lab programs" 
+return s
+s='python'
+res=call_by_value(s) 
+print(res)
+def call_by_reference(l): 
+l[0]=50
+l.append(80) 
+return l 
+l=[20,30,40,50]
+res=call_by_reference(l) 
+print(res)

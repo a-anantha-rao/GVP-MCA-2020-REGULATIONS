@@ -1,0 +1,24 @@
+def armstrong():
+num=int(input("Enter a number")) 
+temp=num
+s=0 
+c=0
+while temp!=0:
+c=c+1 
+temp=int(temp/10)
+temp=num 
+while temp!=0:
+rem= temp%10 
+p=1
+for i in range(0,c):
+p=p*rem
+s=s+p
+temp= int(temp/10) 
+if(s==num):
+print("armstrong number")
+else:
+armstrong()
+Output:
+print("not a armstrong number")
+
+armstrong()

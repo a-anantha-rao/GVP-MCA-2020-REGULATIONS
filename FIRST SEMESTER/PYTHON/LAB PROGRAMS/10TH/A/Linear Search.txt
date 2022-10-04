@@ -1,0 +1,13 @@
+def linearsearch(list, n, x): 
+for i in range(0, n):
+if (list[i] == x): 
+return i
+return -1
+list = [2, 4, 0, 1, 9]
+x = 1
+n = len(list)
+result = linearsearch(list, n, x) 
+if(result == -1):
+print("Element not found") 
+else:
+print("Element found at index: ", result)

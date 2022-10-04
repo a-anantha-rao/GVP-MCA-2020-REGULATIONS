@@ -1,0 +1,16 @@
+s=input("enter text:")
+p="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+q="aeiouAEIOU"
+c=0
+v=0
+b=0
+for i in s:
+if i in q:
+v=v+1
+if i in p:
+c=c+1
+else:
+b=b+1
+print("No of characters are:",c)
+print("No of vowels are:",v)
+print("No of blank spaces are:",b)
